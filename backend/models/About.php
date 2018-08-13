@@ -32,6 +32,7 @@ class About extends \yii\db\ActiveRecord
             [['descricao'], 'string'],
             [['titulo'], 'string', 'max' => 200],
             [['imagem'], 'string', 'max' => 255],
+            [['image'],'file','extensions' => 'pnj,jpg,gif'],
             
         ];
     }
